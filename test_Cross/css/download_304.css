@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	color: navy;
+}
+
+a:visited{
+	color: navy;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#info01 {
+	padding: 6px 8px;
+	font: 10px/12px Arial, Helvetica, sans-serif;
+	color: navy;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	min-width: 130px;
+	width: fit-content;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 10;
+}
+
+#info03 {
+	padding: 3px 4px;
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: black;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+        width: fit-content;
+	position: absolute;
+	bottom: 0; 
+	z-index: 10;
+}
+
+.yubi {
+  cursor : pointer;
+}
+
+.Download_Button {
+	border: 0;
+	min-width: 100px;
+	min-height: 30px;
+	vertical-align: middle;
+	border-radius: 2px;
+	background: #79f379;
+	color: navy;
+	padding: 2px 2px;
+	font-size: 12px;
+	cursor : pointer;
+}
+
+
+

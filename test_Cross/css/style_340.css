@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	color: navy;
+}
+
+a:visited{
+	color: navy;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+/*Class（指）*/
+.yubi {
+  cursor : pointer;
+}
+
+
+#info01 {
+	padding: 6px 8px;
+	font: 10px/12px Arial, Helvetica, sans-serif;
+	color: navy;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	width: fit-content;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 10;
+}
+
+#info02 {
+	padding: 6px 8px;
+	font: 10px/12px Arial, Helvetica, sans-serif;
+	color: navy;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	width: fit-content;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	z-index: 30;
+}
+
+#info03 {
+	padding: 3px 4px;
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: black;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+        width: fit-content;
+	position: absolute;
+	bottom: 0; 
+	z-index: 10;
+}
+
+.ViewChangeButton {
+  appearance: none;
+  border: 0px;
+  border-radius: 2px;
+  background: #919191;
+  color: #fff;
+  padding: 2px 4px 2px 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.ViewPhotoButton {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #919191;
+  color: #fff;
+  padding: 3px 3px 3px 3px;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+#contextmenu {
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: navy;
+}
+
+#basemaps {
+	font: 12px/14px Arial, Helvetica, sans-serif;
+}
+
+.maplibregl-popup .maplibregl-popup-content{
+	padding: 8px 10px;
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: black;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	width: fit-content;
+}
+
+.maplibregl-ctrl-geocoder {
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	position: relative;
+	background-color: #fff;
+	width: 80%;
+	min-width: 100px;
+	z-index: 1;
+	border-radius: 5px;
+	transition: width 0.25s, min-width 0.25s;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.maplibregl-ctrl-geocoder .suggestions {
+    font-size: 10px;
+  }
+
+.generate-button{
+  color: navy;
+}
+
+/*検索地番クリア*/
+#Clear_Chiban_Fillter {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #4676D7;
+  color: #fff;
+  padding: 2px 2px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+/*検索地番クリア（Popup）*/
+#Popup_Clear_Chiban_Fillter {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #4676D7;
+  color: #fff;
+  padding: 2px 2px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+/*メール：件名*/
+.mail_Title {
+  width: 200px;
+}
+
+/*メール：内容*/
+.mail_Content {
+  width: 200px;
+  height: 50px;
+}
+
+/*メール送信ボタン*/
+.sendButton {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #4676D7;
+  color: #fff;
+  padding: 2px 2px;
+  font-size: 8px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*コピーボタン*/
+.copyButton {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  background: #4676D7;
+  color: #fff;
+  padding: 2px 2px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.copyButton:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
+
+/*ログインユーザー*/
+.user {
+	visibility: hidden;
+	padding: 6px 8px;
+	font: 10px/12px Arial, Helvetica, sans-serif;
+	color: navy;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	width: fit-content;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 10;
+}
+
+
+
+.select_box {
+  height         : 10px;
+  line-height    : 14px;
+  font-size      : 14px;
+}
+
+/*切替ボタン*/
+.toggle-button-001 {
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    width: 20px;	/*100px;*/
+    height: 10px;	/*50px;*/
+    border-radius: 10px;	/*50px;*/
+    border: 3px solid #dddddd;	/*3px*/
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: border-color .4s;
+}
+
+.toggle-button-001:has(:checked) {
+    border-color: #4bd865;
+}
+
+.toggle-button-001::after {
+    position: absolute;
+    top: 50%;
+    left: 0px;	/*5px;*/
+    transform: translateY(-50%);
+    width: 10px;	/*45px;*/
+    height: 10px;	/*45px;*/
+    border-radius: 50%;
+    background-color: #dddddd;
+    content: '';
+    transition: left .4s;
+}
+
+.toggle-button-001:has(:checked)::after {
+    left: 10px;	/*50px;*/
+    background-color: #4bd865;
+}
+
+.toggle-button-001 input {
+    display: none;
+}
